@@ -1,0 +1,24 @@
+{
+  "name": "btc-wallet",
+  "version": "1.0.0",
+  "description": "Opensource project bitcoinjs.com",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitcoinjscom/btc-wallet.git"
+  },
+  "keywords": [
+    "bitcoin",
+    "wallet",
+    "address"
+  ],
+  "author": "XPDEAL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bitcoinjscom/btc-wallet/issues"
+  },
+  "homepage": "https://github.com/bitcoinjscom/btc-wallet#readme"
+}
