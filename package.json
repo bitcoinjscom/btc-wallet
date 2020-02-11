@@ -4,6 +4,8 @@
   "description": "Opensource project bitcoinjs.com",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +22,12 @@
   "bugs": {
     "url": "https://github.com/bitcoinjscom/btc-wallet/issues"
   },
-  "homepage": "https://github.com/bitcoinjscom/btc-wallet#readme"
+  "homepage": "https://github.com/bitcoinjscom/btc-wallet#readme",
+  "dependencies": {
+    "cookie-session": "^1.4.0",
+    "express": "^4.17.1",
+    "helmet": "^3.21.2",
+    "mongoose": "^5.8.11",
+    "nodemon": "^2.0.2"
+  }
 }
